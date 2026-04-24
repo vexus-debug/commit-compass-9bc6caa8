@@ -113,12 +113,12 @@ const veneerOptions = [
 ];
 
 const corrections = [
-  { icon: "🟡", title: "Deep Discolouration", desc: "Intrinsic staining from tetracycline, fluorosis, or ageing that whitening cannot touch. Veneers cover it completely.", status: "Fully Corrected" },
-  { icon: "🔹", title: "Chipped & Cracked Teeth", desc: "Minor chips and cracks are concealed permanently beneath a flawless porcelain surface. No more hiding your smile.", status: "Fully Corrected" },
-  { icon: "↔️", title: "Gaps Between Teeth", desc: "Small to moderate diastemas can be closed with wider-profile veneers — no braces required, no years of waiting.", status: "Fully Corrected" },
-  { icon: "📐", title: "Uneven or Misshapen Teeth", desc: "Teeth that are too short, too small, or poorly shaped are rebuilt to the ideal size and form for your face.", status: "Fully Corrected" },
-  { icon: "🔄", title: "Mildly Crooked Teeth", desc: "Minor alignment issues can be corrected with veneers in weeks, not years — the 'instant orthodontics' effect.", status: "Often Corrected" },
-  { icon: "📏", title: "Worn-Down Enamel", desc: "Teeth worn down by grinding or acid erosion can be restored to their original length and shape with durable veneers.", status: "Fully Corrected" },
+  { icon: Sparkles, title: "Deep Discolouration", desc: "Intrinsic staining from tetracycline, fluorosis, or ageing that whitening cannot touch. Veneers cover it completely.", status: "Fully Corrected" },
+  { icon: Layers, title: "Chipped & Cracked Teeth", desc: "Minor chips and cracks are concealed permanently beneath a flawless porcelain surface. No more hiding your smile.", status: "Fully Corrected" },
+  { icon: Move, title: "Gaps Between Teeth", desc: "Small to moderate diastemas can be closed with wider-profile veneers — no braces required, no years of waiting.", status: "Fully Corrected" },
+  { icon: Ruler, title: "Uneven or Misshapen Teeth", desc: "Teeth that are too short, too small, or poorly shaped are rebuilt to the ideal size and form for your face.", status: "Fully Corrected" },
+  { icon: RefreshCw, title: "Mildly Crooked Teeth", desc: "Minor alignment issues can be corrected with veneers in weeks, not years — the 'instant orthodontics' effect.", status: "Often Corrected" },
+  { icon: Minus, title: "Worn-Down Enamel", desc: "Teeth worn down by grinding or acid erosion can be restored to their original length and shape with durable veneers.", status: "Fully Corrected" },
 ];
 
 const costsOfWaiting = [
