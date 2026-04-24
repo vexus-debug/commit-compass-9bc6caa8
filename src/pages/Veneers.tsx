@@ -164,12 +164,12 @@ const journeySteps = [
 ];
 
 const whyVista = [
-  { icon: "🏛️", title: "Qualified & Experienced", desc: "Our dentists specialise in cosmetic and restorative procedures, with hands-on experience across hundreds of veneer cases." },
-  { icon: "🔬", title: "Premium Materials Only", desc: "We use only clinically tested, internationally certified porcelain and composite materials — no compromises on quality." },
-  { icon: "🎯", title: "Personalised Design", desc: "Every veneer smile is designed around your face, skin tone, personality, and goals. This is not a template — it is bespoke artistry." },
-  { icon: "💬", title: "WhatsApp-First Access", desc: "Questions at 9pm? We're accessible. Get real answers fast — no automated bots, no long waits, no call queues." },
-  { icon: "💰", title: "Honest, Transparent Pricing", desc: "We quote fully before we begin. No hidden costs, no surprise additions. You stay in control of your investment at every step." },
-  { icon: "🔄", title: "Aftercare Guarantee", desc: "We follow up after every procedure and remain your dental partner for the life of your veneers — not just the day of treatment." },
+  { icon: Building2, title: "Qualified & Experienced", desc: "Our dentists specialise in cosmetic and restorative procedures, with hands-on experience across hundreds of veneer cases." },
+  { icon: Microscope, title: "Premium Materials Only", desc: "We use only clinically tested, internationally certified porcelain and composite materials — no compromises on quality." },
+  { icon: Target, title: "Personalised Design", desc: "Every veneer smile is designed around your face, skin tone, personality, and goals. This is not a template — it is bespoke artistry." },
+  { icon: MessageCircle, title: "WhatsApp-First Access", desc: "Questions at 9pm? We're accessible. Get real answers fast — no automated bots, no long waits, no call queues." },
+  { icon: Wallet, title: "Honest, Transparent Pricing", desc: "We quote fully before we begin. No hidden costs, no surprise additions. You stay in control of your investment at every step." },
+  { icon: ShieldCheck, title: "Aftercare Guarantee", desc: "We follow up after every procedure and remain your dental partner for the life of your veneers — not just the day of treatment." },
 ];
 
 const Veneers = () => {
