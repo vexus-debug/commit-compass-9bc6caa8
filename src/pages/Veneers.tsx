@@ -220,13 +220,13 @@ const Veneers = () => {
 
           <motion.div {...fadeInUp} transition={{ duration: 0.6, delay: 0.3 }} className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-6 max-w-4xl mx-auto">
             {[
-              { icon: "🦷", text: "Ultra-thin" },
-              { icon: "✨", text: "Ultra-natural" },
-              { icon: "💎", text: "Porcelain · Composite · Zirconia" },
-              { icon: "⏱️", text: "1–2 visits" },
+              { icon: Layers, text: "Ultra-thin" },
+              { icon: Sparkles, text: "Ultra-natural" },
+              { icon: Diamond, text: "Porcelain · Composite · Zirconia" },
+              { icon: Clock, text: "1–2 visits" },
             ].map((item) => (
               <div key={item.text} className="rounded-2xl border border-white/10 bg-white/5 backdrop-blur px-4 py-5 text-center">
-                <div className="text-2xl mb-2">{item.icon}</div>
+                <div className="flex justify-center mb-2"><item.icon className="h-6 w-6 text-amber-200" strokeWidth={1.5} /></div>
                 <div className="text-xs md:text-sm text-white/70 font-medium">{item.text}</div>
               </div>
             ))}
@@ -374,7 +374,7 @@ const Veneers = () => {
                 transition={{ duration: 0.5, delay: i * 0.08 }}
                 className="group rounded-3xl bg-white p-7 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-purple-100"
               >
-                <div className="text-4xl mb-4">{c.icon}</div>
+                <div className="w-12 h-12 rounded-2xl bg-purple-100 border border-purple-200 flex items-center justify-center mb-4"><c.icon className="h-6 w-6 text-purple-700" strokeWidth={1.75} /></div>
                 <h3 className="text-lg font-semibold text-[hsl(270_45%_15%)] mb-2">{c.title}</h3>
                 <p className="text-sm text-[hsl(270_20%_35%)] leading-relaxed mb-4">{c.desc}</p>
                 <div className="inline-flex items-center gap-1.5 text-xs font-bold text-emerald-700 bg-emerald-50 px-3 py-1 rounded-full">
@@ -575,7 +575,7 @@ const Veneers = () => {
                 transition={{ duration: 0.5, delay: i * 0.08 }}
                 className="group rounded-3xl bg-white p-8 shadow-sm hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 border border-amber-100"
               >
-                <div className="text-4xl mb-5 transition-transform duration-300 group-hover:scale-110">{w.icon}</div>
+                <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-amber-100 to-amber-50 border border-amber-200 flex items-center justify-center mb-5 transition-transform duration-300 group-hover:scale-110"><w.icon className="h-7 w-7 text-amber-700" strokeWidth={1.75} /></div>
                 <h3 className="text-xl font-serif font-medium text-[hsl(220_45%_8%)] mb-3">{w.title}</h3>
                 <p className="text-sm text-[hsl(220_25%_35%)] leading-relaxed">{w.desc}</p>
               </motion.div>
