@@ -2,95 +2,106 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
+/* Vista Dental Care Design System
+   Primary: Deep Navy Blue (trust, professionalism)
+   Secondary: Teal Green (health, freshness)
+   Accent: White (cleanliness, clarity)
+   All colors in HSL format
 */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 210 33% 98%;
+    --foreground: 220 50% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 220 50% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 220 50% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Deep Navy Blue */
+    --primary: 220 60% 20%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Teal Green */
+    --secondary: 174 60% 40%;
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Light blue-gray for muted sections */
+    --muted: 210 30% 96%;
+    --muted-foreground: 220 20% 40%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Mint tint accent */
+    --accent: 174 40% 92%;
+    --accent-foreground: 220 50% 15%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 210 30% 88%;
+    --input: 210 30% 88%;
+    --ring: 174 60% 40%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
 
-    --sidebar-background: 0 0% 98%;
+    /* Custom dental theme tokens */
+    --dental-navy: 220 60% 20%;
+    --dental-navy-light: 220 50% 30%;
+    --dental-teal: 174 60% 40%;
+    --dental-teal-light: 174 50% 50%;
+    --dental-teal-pale: 174 40% 92%;
+    --dental-mint: 165 40% 94%;
+    --dental-cream: 40 30% 97%;
 
-    --sidebar-foreground: 240 5.3% 26.1%;
-
-    --sidebar-primary: 240 5.9% 10%;
-
-    --sidebar-primary-foreground: 0 0% 98%;
-
-    --sidebar-accent: 240 4.8% 95.9%;
-
-    --sidebar-accent-foreground: 240 5.9% 10%;
-
-    --sidebar-border: 220 13% 91%;
-
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    /* Dashboard app tokens */
+    --sidebar-background: 220 55% 13%;
+    --sidebar-foreground: 210 30% 85%;
+    --sidebar-primary: 174 60% 45%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 220 50% 18%;
+    --sidebar-accent-foreground: 174 50% 70%;
+    --sidebar-border: 220 45% 20%;
+    --sidebar-ring: 174 60% 40%;
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
+    --background: 220 50% 10%;
+    --foreground: 210 30% 96%;
 
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
+    --card: 220 50% 12%;
+    --card-foreground: 210 30% 96%;
 
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 220 50% 12%;
+    --popover-foreground: 210 30% 96%;
 
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+    --primary: 174 60% 45%;
+    --primary-foreground: 220 50% 10%;
 
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 220 40% 30%;
+    --secondary-foreground: 210 30% 96%;
 
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
+    --muted: 220 40% 18%;
+    --muted-foreground: 210 20% 65%;
 
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
+    --accent: 174 40% 25%;
+    --accent-foreground: 210 30% 96%;
 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 62% 30%;
+    --destructive-foreground: 210 30% 96%;
 
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
+    --border: 220 40% 20%;
+    --input: 220 40% 20%;
+    --ring: 174 60% 45%;
+
+    --sidebar-background: 220 50% 10%;
+    --sidebar-foreground: 210 30% 96%;
+    --sidebar-primary: 174 60% 45%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-accent: 220 40% 18%;
+    --sidebar-accent-foreground: 210 30% 96%;
+    --sidebar-border: 220 40% 20%;
+    --sidebar-ring: 174 60% 45%;
   }
 }
 
@@ -100,6 +111,220 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground antialiased;
   }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold tracking-tight;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Enhanced animations for Vista Dental */
+@keyframes float {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-20px) rotate(5deg); }
+}
+
+@keyframes float-slow {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes gradient-shift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 20px hsla(174, 60%, 40%, 0.4); }
+  50% { box-shadow: 0 0 40px hsla(174, 60%, 40%, 0.6); }
+}
+
+@keyframes heart-float {
+  0%, 100% { transform: translateY(0) scale(1); opacity: 1; }
+  50% { transform: translateY(-30px) scale(1.1); opacity: 0.8; }
+}
+
+@keyframes confetti {
+  0% { transform: translateY(0) rotate(0deg); opacity: 1; }
+  100% { transform: translateY(-100vh) rotate(720deg); opacity: 0; }
+}
+
+@keyframes draw-line {
+  from { stroke-dashoffset: 1000; }
+  to { stroke-dashoffset: 0; }
+}
+
+@keyframes word-rotate {
+  0%, 20% { opacity: 0; transform: translateY(20px); }
+  25%, 45% { opacity: 1; transform: translateY(0); }
+  50%, 100% { opacity: 0; transform: translateY(-20px); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-float-slow {
+  animation: float-slow 8s ease-in-out infinite;
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradient-shift 8s ease infinite;
+}
+
+.animate-shimmer {
+  background: linear-gradient(90deg, transparent, hsla(174, 60%, 40%, 0.2), transparent);
+  background-size: 200% 100%;
+  animation: shimmer 2s infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+.animate-heart-float {
+  animation: heart-float 3s ease-in-out infinite;
+}
+
+.animate-draw-line {
+  stroke-dasharray: 1000;
+  animation: draw-line 2s ease-out forwards;
+}
+
+/* Card hover effects */
+.card-hover {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-hover:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px -10px hsla(220, 60%, 20%, 0.15);
+}
+
+/* Dashboard premium background */
+.dashboard-bg {
+  background-color: hsl(var(--muted));
+  background-image:
+    radial-gradient(circle at 1px 1px, hsl(var(--border)) 0.5px, transparent 0),
+    linear-gradient(135deg, hsl(var(--background)) 0%, hsl(var(--muted)) 50%, hsl(var(--dental-teal-pale)) 100%);
+  background-size: 24px 24px, 100% 100%;
+  background-blend-mode: overlay;
+}
+
+.dark .dashboard-bg {
+  background-image:
+    radial-gradient(circle at 1px 1px, hsl(var(--border) / 0.3) 0.5px, transparent 0),
+    linear-gradient(135deg, hsl(var(--background)) 0%, hsl(var(--muted)) 100%);
+}
+
+/* Premium stat card */
+.stat-card {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.stat-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, hsl(var(--secondary)), hsl(var(--dental-teal-light)));
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px -8px hsl(var(--secondary) / 0.15);
+}
+
+.stat-card:hover::before {
+  opacity: 1;
+}
+
+/* Glass card effect */
+.glass-card {
+  background: hsl(var(--card) / 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid hsl(var(--border) / 0.5);
+}
+
+/* Timeline connector */
+.timeline-item {
+  position: relative;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: 15px;
+  top: 32px;
+  bottom: -8px;
+  width: 1.5px;
+  background: linear-gradient(to bottom, hsl(var(--border)), transparent);
+}
+
+.timeline-item:last-child::before {
+  display: none;
+}
+
+/* Gradient backgrounds */
+.gradient-hero {
+  background: linear-gradient(135deg, 
+    hsl(var(--dental-teal-pale)) 0%, 
+    hsl(var(--background)) 50%, 
+    hsl(var(--dental-mint)) 100%);
+}
+
+.gradient-animated {
+  background: linear-gradient(-45deg, 
+    hsl(var(--dental-teal)) 0%, 
+    hsl(var(--dental-navy)) 25%, 
+    hsl(var(--dental-teal-light)) 50%, 
+    hsl(var(--dental-navy-light)) 75%,
+    hsl(var(--dental-teal)) 100%);
+  background-size: 400% 400%;
+  animation: gradient-shift 15s ease infinite;
+}
+
+/* Decorative blob shapes */
+.blob {
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+}
+
+.blob-2 {
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+}
+
+/* Section dividers */
+.wave-divider {
+  position: relative;
+}
+
+.wave-divider::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 120' preserveAspectRatio='none'%3E%3Cpath d='M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V120H0V95.8C132.3,118.93,163.32,73.17,321.39,56.44Z' fill='%23f8fafc'/%3E%3C/svg%3E") no-repeat center;
+  background-size: cover;
 }
