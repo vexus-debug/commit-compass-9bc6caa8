@@ -35,7 +35,7 @@ const beforeAfterResults = [
 ];
 
 const WHATSAPP_URL =
-  "https://wa.me/2348000000000?text=Hi%20VistaDentalcare%2C%20I%20saw%20your%20page%20about%20yellow%20teeth%20and%20would%20like%20to%20chat.";
+  "https://wa.me/2347088788880?text=Hi%20VistaDentalcare%2C%20I%20saw%20your%20page%20about%20yellow%20teeth%20and%20would%20like%20to%20chat.";
 
 const fadeInUp = {
   initial: { opacity: 0, y: 24 },

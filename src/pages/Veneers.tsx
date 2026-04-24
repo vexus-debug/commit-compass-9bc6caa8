@@ -31,7 +31,7 @@ import veneerBA1 from "@/assets/veneers-before-after-1.jpg";
 import veneerBA2 from "@/assets/veneers-before-after-2.jpg";
 
 const WHATSAPP_URL =
-  "https://wa.me/2348000000000?text=Hi%20VistaDentalcare%2C%20I%20saw%20your%20veneers%20page%20and%20would%20like%20a%20free%20consultation.";
+  "https://wa.me/2347088788880?text=Hi%20VistaDentalcare%2C%20I%20saw%20your%20veneers%20page%20and%20would%20like%20a%20free%20consultation.";
 
 const fadeInUp = {
   initial: { opacity: 0, y: 24 },

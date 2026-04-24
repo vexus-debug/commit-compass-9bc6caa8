@@ -30,7 +30,7 @@ import beforeAfter4 from "@/assets/yellow-teeth-ba-4.jpg";
 import scalingImg from "@/assets/yellow-teeth-scaling.jpg";
 
 const WHATSAPP_URL =
-  "https://wa.me/2348000000000?text=Hi%20VistaDentalcare%2C%20I'd%20like%20to%20book%20a%20scaling%20%26%20polishing%20appointment.";
+  "https://wa.me/2347088788880?text=Hi%20VistaDentalcare%2C%20I'd%20like%20to%20book%20a%20scaling%20%26%20polishing%20appointment.";
 
 const fadeInUp = {
   initial: { opacity: 0, y: 24 },

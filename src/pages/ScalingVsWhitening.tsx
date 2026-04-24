@@ -28,7 +28,7 @@ import heroImg from "@/assets/yellow-teeth-whitening.jpg";
 import scalingImg from "@/assets/yellow-teeth-scaling.jpg";
 
 const WHATSAPP_URL =
-  "https://wa.me/2348000000000?text=Hi%20VistaDentalcare%2C%20I%27d%20like%20to%20know%20whether%20I%20need%20scaling%20or%20whitening.";
+  "https://wa.me/2347088788880?text=Hi%20VistaDentalcare%2C%20I%27d%20like%20to%20know%20whether%20I%20need%20scaling%20or%20whitening.";
 
 const fade = {
   initial: { opacity: 0, y: 24 },

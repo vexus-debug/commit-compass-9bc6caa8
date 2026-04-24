@@ -24,7 +24,7 @@ import bridgeCaseAfterImg from "@/assets/restoration-case-bridge-after.jpg";
 import grillsImg from "@/assets/restoration-grills.jpg";
 
 const WHATSAPP_URL =
-  "https://wa.me/2348000000000?text=Hi%20VistaDentalcare%2C%20I'd%20like%20to%20discuss%20tooth%20replacement%20options.";
+  "https://wa.me/2347088788880?text=Hi%20VistaDentalcare%2C%20I'd%20like%20to%20discuss%20tooth%20replacement%20options.";
 
 const fadeInUp = {
   initial: { opacity: 0, y: 24 },
