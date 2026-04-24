@@ -1,0 +1,9 @@
+export { ServiceHero } from "./ServiceHero";
+export { ProcessTimeline } from "./ProcessTimeline";
+export { ServiceFAQ } from "./ServiceFAQ";
+export { ServiceTestimonial } from "./ServiceTestimonial";
+export { BenefitsGrid } from "./BenefitsGrid";
+export { WhoIsThisFor } from "./WhoIsThisFor";
+export { RelatedServices } from "./RelatedServices";
+export { ServiceCTA } from "./ServiceCTA";
+export { TreatmentExplainer } from "./TreatmentExplainer";
