@@ -35,7 +35,7 @@ const beforeAfterResults = [
 ];
 
 const WHATSAPP_URL =
-  "https://wa.me/2348000000000?text=Hi%20VistaDentalcare%2C%20I%20saw%20your%20page%20about%20yellow%20teeth%20and%20would%20like%20to%20chat.";
+  "https://wa.me/2347088788880?text=Hi%20VistaDentalcare%2C%20I%20saw%20your%20page%20about%20yellow%20teeth%20and%20would%20like%20to%20chat.";
 
 const fadeInUp = {
   initial: { opacity: 0, y: 24 },
@@ -77,7 +77,7 @@ function WhatsAppButton({
 const symptoms = [
   {
     title: "Yellow or dull teeth",
-    desc: "Even after brushing — often worse near the gum line",
+    desc: "Even after brushing, often worse near the gum line",
   },
   {
     title: "Persistent bad breath",
@@ -96,27 +96,27 @@ const symptoms = [
 const tableRows = [
   {
     label: "Purpose",
-    a: "Health + Aesthetics — removes plaque, tartar & surface stains",
-    b: "Cosmetic — lightens the natural colour of the tooth",
+    a: "Health + Aesthetics, removes plaque, tartar & surface stains",
+    b: "Cosmetic, lightens the natural colour of the tooth",
   },
   {
     label: "Who needs it",
-    a: "Almost everyone — recommended every 6 months",
+    a: "Almost everyone, recommended every 6 months",
     b: "People wanting a brighter shade beyond clean teeth",
   },
   {
     label: "Fixes yellow from buildup?",
-    a: "✅ Yes — this is exactly what it's designed for",
-    b: "❌ No — whitening doesn't remove tartar or plaque",
+    a: "✅ Yes, this is exactly what it's designed for",
+    b: "❌ No, whitening doesn't remove tartar or plaque",
   },
   {
     label: "Protects gum health?",
-    a: "✅ Yes — reduces risk of gum disease",
-    b: "❌ No — purely cosmetic",
+    a: "✅ Yes, reduces risk of gum disease",
+    b: "❌ No, purely cosmetic",
   },
   {
     label: "Best used",
-    a: "First — as a foundation for oral health",
+    a: "First, as a foundation for oral health",
     b: "After scaling & polishing, if still desired",
   },
 ];
@@ -152,7 +152,7 @@ const trustPoints = [
 const faqs = [
   {
     q: "Is scaling and polishing painful?",
-    a: "Most patients find it completely comfortable. You may feel some vibration or mild sensitivity, especially if tartar has built up significantly — but it's nothing like the dental experiences people fear. Our team works gently and will always check in with you throughout.",
+    a: "Most patients find it completely comfortable. You may feel some vibration or mild sensitivity, especially if tartar has built up significantly, but it's nothing like the dental experiences people fear. Our team works gently and will always check in with you throughout.",
   },
   {
     q: "How do I know if I need cleaning or whitening?",
@@ -164,7 +164,7 @@ const faqs = [
   },
   {
     q: "How do I book?",
-    a: "The easiest way is to message us directly on WhatsApp. Just tap the button below, send us a message, and our team will confirm a time that works for you — no complicated forms.",
+    a: "The easiest way is to message us directly on WhatsApp. Just tap the button below, send us a message, and our team will confirm a time that works for you, no complicated forms.",
   },
 ];
 
@@ -178,7 +178,7 @@ export default function YellowTeeth() {
       >
         <div className="w-full max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-10 flex items-center justify-between gap-3 py-2.5 text-xs sm:text-sm">
             <p className="truncate">
-              <span className="font-semibold">VistaDentalcare</span> — Professional dental care you can trust.
+              <span className="font-semibold">VistaDentalcare</span>, Professional dental care you can trust.
             </p>
           <a
             href={WHATSAPP_URL}
@@ -245,7 +245,7 @@ export default function YellowTeeth() {
                 </span>
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-xl">
-                The real answer might surprise you — and the fix is simpler, faster,
+                The real answer might surprise you, and the fix is simpler, faster,
                 and more affordable than you think.
               </p>
               <div className="pt-2 space-y-4">
@@ -303,7 +303,7 @@ export default function YellowTeeth() {
                 <div className="absolute -inset-6 rounded-[3rem] bg-gradient-to-br from-secondary/25 via-primary/10 to-secondary/15 blur-3xl" />
 
                 <div className="relative grid grid-cols-12 grid-rows-6 gap-3 sm:gap-4 aspect-[4/4.2]">
-                  {/* Main hero image — actual result */}
+                  {/* Main hero image, actual result */}
                   <motion.div
                     initial={{ opacity: 0, scale: 0.9 }}
                     animate={{ opacity: 1, scale: 1 }}
@@ -322,7 +322,7 @@ export default function YellowTeeth() {
                     </div>
                   </motion.div>
 
-                  {/* Top right — second BA */}
+                  {/* Top right, second BA */}
                   <motion.div
                     initial={{ opacity: 0, x: 20 }}
                     animate={{ opacity: 1, x: 0 }}
@@ -338,7 +338,7 @@ export default function YellowTeeth() {
                     <div className="absolute inset-0 bg-gradient-to-t from-primary/30 to-transparent" />
                   </motion.div>
 
-                  {/* Bottom right — whitening */}
+                  {/* Bottom right, whitening */}
                   <motion.div
                     initial={{ opacity: 0, x: 20 }}
                     animate={{ opacity: 1, x: 0 }}
@@ -371,7 +371,7 @@ export default function YellowTeeth() {
                   <div>
                     <p className="text-[11px] font-medium text-muted-foreground">New on WhatsApp</p>
                     <p className="text-sm font-semibold text-primary leading-tight">
-                      "Booked in 2 mins — so easy!"
+                      "Booked in 2 mins, so easy!"
                     </p>
                   </div>
                 </motion.div>
@@ -414,7 +414,7 @@ export default function YellowTeeth() {
               <p>
                 You brush morning and night. Maybe you use whitening toothpaste. You rinse. You try.
                 But when you look in the mirror or smile for a photo, your teeth still look dull,
-                yellow, or stained — and it's honestly demoralising.
+                yellow, or stained, and it's honestly demoralising.
               </p>
               <p className="text-foreground">
                 If that sounds familiar, here's something important:{" "}
@@ -422,7 +422,7 @@ export default function YellowTeeth() {
               </p>
               <p>
                 Most people in this situation assume they need tooth whitening. But in the majority
-                of cases, the real culprit is something much more common — and much more fixable.
+                of cases, the real culprit is something much more common, and much more fixable.
               </p>
             </div>
           </motion.div>
@@ -445,7 +445,7 @@ export default function YellowTeeth() {
                 It's <span className="relative whitespace-nowrap">
                   <span className="relative z-10 text-secondary font-semibold">tartar buildup</span>
                   <span className="absolute bottom-0.5 left-0 right-0 h-2 bg-secondary/20 -z-0" />
-                </span> — and no toothbrush in the world can remove it once it hardens.
+                </span>, and no toothbrush in the world can remove it once it hardens.
               </p>
               <footer className="mt-7 flex items-center gap-3 text-sm text-muted-foreground">
                 <span className="h-px w-8 bg-muted-foreground/40" />
@@ -474,9 +474,9 @@ export default function YellowTeeth() {
                 What's actually causing your teeth to look that way.
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Plaque forms on your teeth naturally — every single day. When it isn't completely
+                Plaque forms on your teeth naturally, every single day. When it isn't completely
                 removed, it hardens into a substance called <strong className="text-primary">tartar (calculus)</strong>.
-                Tartar is porous, stain-absorbing, and yellowish — and it clings to the tooth
+                Tartar is porous, stain-absorbing, and yellowish, and it clings to the tooth
                 surface no matter how hard you brush.
               </p>
               <div className="relative overflow-hidden rounded-2xl border-l-4 border-amber-500 bg-amber-50/80 p-6 dark:bg-amber-950/20">
@@ -505,7 +505,7 @@ export default function YellowTeeth() {
                     <div className="relative overflow-hidden rounded-2xl shadow-xl ring-1 ring-border">
                       <img
                         src={beforeAfter3}
-                        alt="Tartar buildup along the gum line — before cleaning"
+                        alt="Tartar buildup along the gum line, before cleaning"
                         className="h-full w-full object-cover aspect-[4/5]"
                         loading="lazy"
                       />
@@ -530,7 +530,7 @@ export default function YellowTeeth() {
                     <div className="relative overflow-hidden rounded-2xl shadow-xl ring-1 ring-border">
                       <img
                         src={beforeAfter4}
-                        alt="Same teeth after professional scaling — clean and bright"
+                        alt="Same teeth after professional scaling, clean and bright"
                         className="h-full w-full object-cover aspect-[4/5]"
                         loading="lazy"
                       />
@@ -587,7 +587,7 @@ export default function YellowTeeth() {
           >
             <p className="text-base md:text-lg text-foreground leading-relaxed">
               <span className="font-semibold text-primary">Two or more sound like you?</span>{" "}
-              A professional cleaning is almost certainly what your smile needs first — before any
+              A professional cleaning is almost certainly what your smile needs first, before any
               whitening treatment.
             </p>
           </motion.div>
@@ -613,7 +613,7 @@ export default function YellowTeeth() {
               <span className="text-muted-foreground/70">vs.</span> tooth whitening
             </h2>
             <p className="text-lg text-muted-foreground">
-              Both can brighten your smile — but they do very different things. Choosing the wrong
+              Both can brighten your smile, but they do very different things. Choosing the wrong
               one is how people waste money and don't get the result they hoped for.
             </p>
           </motion.div>
@@ -634,7 +634,7 @@ export default function YellowTeeth() {
               <div className="mb-6 overflow-hidden rounded-2xl border ring-1 ring-secondary/30">
                 <img
                   src={scalingImg}
-                  alt="Before and after scaling and polishing — heavy tartar removed revealing clean healthy teeth"
+                  alt="Before and after scaling and polishing, heavy tartar removed revealing clean healthy teeth"
                   className="w-full h-auto"
                   loading="lazy"
                 />
@@ -712,7 +712,7 @@ export default function YellowTeeth() {
             <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
               <strong className="text-primary">Bottom line:</strong> Many patients who come in asking
               for whitening discover after a professional clean that their teeth are already several
-              shades brighter — and they don't need whitening at all. The right treatment starts with
+              shades brighter, and they don't need whitening at all. The right treatment starts with
               an honest assessment.
             </p>
           </motion.div>
@@ -723,7 +723,7 @@ export default function YellowTeeth() {
         </div>
       </section>
 
-      {/* Before & After gallery — actual scaling results */}
+      {/* Before & After gallery, actual scaling results */}
       <section className="relative py-20 md:py-28 overflow-hidden">
         <div className="absolute inset-0 -z-10 bg-gradient-to-b from-background via-secondary/[0.03] to-background" />
         <div className="w-full max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-10">
@@ -733,11 +733,11 @@ export default function YellowTeeth() {
               See it for yourself
             </div>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary leading-[1.1] tracking-tight">
-              Real before &amp; after — one cleaning session.
+              Real before &amp; after, one cleaning session.
             </h2>
             <p className="text-base md:text-lg text-muted-foreground">
               These are unedited photos of actual scaling &amp; polishing results. No whitening,
-              no veneers — just the tartar and stains being properly removed.
+              no veneers, just the tartar and stains being properly removed.
             </p>
           </motion.div>
 
@@ -769,7 +769,7 @@ export default function YellowTeeth() {
 
           <motion.div {...fadeInUp} className="mt-12 max-w-2xl mx-auto rounded-2xl border bg-card/60 p-6 text-center">
             <p className="text-sm md:text-base text-muted-foreground italic leading-relaxed">
-              Note: These photos may look intense, but the tartar removal itself is comfortable —
+              Note: These photos may look intense, but the tartar removal itself is comfortable -
               and the difference is immediate.
             </p>
           </motion.div>
@@ -780,7 +780,7 @@ export default function YellowTeeth() {
         </div>
       </section>
 
-      {/* For those who want more — Veneers section */}
+      {/* For those who want more, Veneers section */}
       <section
         className="relative py-20 md:py-28 overflow-hidden text-white"
         style={{ backgroundColor: "hsl(184 70% 14%)" }}
@@ -805,16 +805,16 @@ export default function YellowTeeth() {
               Dental Veneers Can Transform Your Entire Smile.
             </p>
             <p className="text-base md:text-lg text-white/80 leading-relaxed">
-              Scaling, polishing, and whitening are excellent treatments — but they work with the
-              teeth you already have. If your concern goes deeper than colour — if you have
-              chipped, cracked, uneven, gapped, or worn teeth — dental veneers offer something
+              Scaling, polishing, and whitening are excellent treatments, but they work with the
+              teeth you already have. If your concern goes deeper than colour, if you have
+              chipped, cracked, uneven, gapped, or worn teeth, dental veneers offer something
               more powerful: a complete smile redesign.
             </p>
           </motion.div>
 
           <motion.div {...fadeInUp} className="max-w-3xl mx-auto mb-14 rounded-2xl border border-white/20 bg-white/5 p-6 md:p-8 text-center">
             <p className="text-base md:text-lg text-white/90 leading-relaxed">
-              A veneer is a thin, custom-made shell — typically porcelain or composite — bonded
+              A veneer is a thin, custom-made shell, typically porcelain or composite, bonded
               to the front surface of the tooth. The result looks and feels completely natural,
               while giving you a level of control over your smile that no cleaning or whitening
               can achieve.
@@ -855,7 +855,7 @@ export default function YellowTeeth() {
               {[
                 { title: "Chips & Cracks", desc: "Restore broken or chipped teeth to look perfect and whole again" },
                 { title: "Uneven Shape or Size", desc: "Reshape teeth that are too short, too long, or inconsistent in size" },
-                { title: "Deep Discolouration", desc: "Cover stains that whitening cannot remove — including fluorosis or tetracycline staining" },
+                { title: "Deep Discolouration", desc: "Cover stains that whitening cannot remove, including fluorosis or tetracycline staining" },
                 { title: "Gaps Between Teeth", desc: "Close small spaces without orthodontic treatment in many cases" },
               ].map((item, i) => (
               <motion.div
@@ -901,7 +901,7 @@ export default function YellowTeeth() {
             <div className="rounded-2xl border border-white/30 bg-white/10 p-5 md:p-6">
               <p className="text-sm md:text-base text-white/90 leading-relaxed">
                 <span className="font-semibold">Important:</span> Veneers always work best on
-                clean, healthy teeth. Most patients complete a scaling and polishing first — it
+                clean, healthy teeth. Most patients complete a scaling and polishing first, it
                 ensures your gums are in the best condition before any veneer work begins.
               </p>
             </div>
@@ -919,7 +919,7 @@ export default function YellowTeeth() {
               Book a Veneer Consultation
             </a>
             <p className="text-xs md:text-sm text-white/80">
-              Free, no-pressure assessment — chat with a dentist on WhatsApp.
+              Free, no-pressure assessment, chat with a dentist on WhatsApp.
             </p>
           </motion.div>
         </div>
@@ -975,7 +975,7 @@ export default function YellowTeeth() {
         </div>
       </section>
 
-      {/* Real reviews — actual screenshots */}
+      {/* Real reviews, actual screenshots */}
       <section className="relative py-20 md:py-28 bg-gradient-to-b from-background via-secondary/[0.04] to-background overflow-hidden">
         <div className="w-full max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-10">
           <motion.div {...fadeInUp} className="text-center mb-14 max-w-2xl mx-auto space-y-4">
@@ -987,7 +987,7 @@ export default function YellowTeeth() {
               Real reviews from real patients.
             </h2>
             <p className="text-base md:text-lg text-muted-foreground">
-              Straight from Google and WhatsApp — no edits, no filters.
+              Straight from Google and WhatsApp, no edits, no filters.
             </p>
           </motion.div>
 
@@ -1037,7 +1037,7 @@ export default function YellowTeeth() {
 
           <motion.div {...fadeInUp} className="mt-14 text-center">
             <p className="mb-6 text-base md:text-lg text-muted-foreground max-w-xl mx-auto">
-              Thousands of smiles transformed. Yours could be next — start with a simple message.
+              Thousands of smiles transformed. Yours could be next, start with a simple message.
             </p>
             <WhatsAppButton />
           </motion.div>
@@ -1064,7 +1064,7 @@ export default function YellowTeeth() {
               <div className="space-y-4 text-base md:text-lg text-muted-foreground leading-relaxed">
                 <p>
                   At VistaDentalcare, we believe every patient deserves a clear explanation of what
-                  their teeth actually need — not just a treatment plan handed to them without
+                  their teeth actually need, not just a treatment plan handed to them without
                   context.
                 </p>
                 <p>
@@ -1074,7 +1074,7 @@ export default function YellowTeeth() {
                 </p>
                 <p>
                   Whether you need a professional clean, a whitening treatment, or simply some
-                  guidance on home care — we'll give you an honest answer.
+                  guidance on home care, we'll give you an honest answer.
                 </p>
               </div>
               <ul className="grid sm:grid-cols-2 gap-3 pt-4">
@@ -1180,10 +1180,10 @@ export default function YellowTeeth() {
             </p>
             <div className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-5 py-2.5 text-sm backdrop-blur">
               <Clock className="h-4 w-4" />
-              Appointments are limited each week — early bookings encouraged.
+              Appointments are limited each week, early bookings encouraged.
             </div>
             <div className="pt-4">
-              <WhatsAppButton size="xl" label="Chat With Us on WhatsApp — It's Free" />
+              <WhatsAppButton size="xl" label="Chat With Us on WhatsApp, It's Free" />
               <p className="mt-5 text-sm text-white/80">
                 No commitment. No pressure. Just honest dental advice.
               </p>
@@ -1196,7 +1196,7 @@ export default function YellowTeeth() {
       <footer className="border-t bg-card py-10">
         <div className="w-full max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-10 text-center space-y-3">
           <p className="font-semibold text-primary">
-            VistaDentalcare — Professional Dental Care
+            VistaDentalcare, Professional Dental Care
           </p>
           <p className="text-xs text-muted-foreground">
             © {new Date().getFullYear()} VistaDentalcare. All rights reserved.
