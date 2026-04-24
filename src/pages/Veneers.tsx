@@ -15,6 +15,17 @@ import {
   Heart,
   Zap,
   ArrowRight,
+  Smile,
+  Layers,
+  Move,
+  Ruler,
+  RefreshCw,
+  Minus,
+  Building2,
+  Microscope,
+  Target,
+  Wallet,
+  GraduationCap,
 } from "lucide-react";
 import veneerBA1 from "@/assets/veneers-before-after-1.jpg";
 import veneerBA2 from "@/assets/veneers-before-after-2.jpg";
