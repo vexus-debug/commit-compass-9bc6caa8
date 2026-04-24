@@ -79,7 +79,7 @@ const veneerOptions = [
     desc: "The gold standard. Hand-crafted in dental ceramics, porcelain veneers replicate the light-reflecting properties of natural enamel. Nearly invisible, highly durable, and beautifully precise.",
     points: [
       "Most natural appearance of all options",
-      "Highly resistant to staining — coffee, tea, wine",
+      "Highly resistant to staining, coffee, tea, wine",
       "Lifespan of 10–15+ years with proper care",
       "Custom-shaded to perfection in every case",
     ],
@@ -89,7 +89,7 @@ const veneerOptions = [
     title: "Composite Veneers",
     badge: "Accessible · Reversible",
     icon: Sparkles,
-    desc: "Sculpted chair-side in a single visit using tooth-coloured resin. A superb entry point into veneers — affordable, reversible, and beautifully effective for minor corrections.",
+    desc: "Sculpted chair-side in a single visit using tooth-coloured resin. A superb entry point into veneers, affordable, reversible, and beautifully effective for minor corrections.",
     points: [
       "Completed in a single appointment",
       "No tooth reduction required in many cases",
@@ -106,8 +106,8 @@ const veneerOptions = [
     points: [
       "Strongest material available for veneers",
       "Excellent for grinding or clenching patients",
-      "Outstanding durability — 15+ years",
-      "Highly biocompatible — no gum sensitivity",
+      "Outstanding durability, 15+ years",
+      "Highly biocompatible, no gum sensitivity",
     ],
   },
 ];
@@ -115,16 +115,16 @@ const veneerOptions = [
 const corrections = [
   { icon: Sparkles, title: "Deep Discolouration", desc: "Intrinsic staining from tetracycline, fluorosis, or ageing that whitening cannot touch. Veneers cover it completely.", status: "Fully Corrected" },
   { icon: Layers, title: "Chipped & Cracked Teeth", desc: "Minor chips and cracks are concealed permanently beneath a flawless porcelain surface. No more hiding your smile.", status: "Fully Corrected" },
-  { icon: Move, title: "Gaps Between Teeth", desc: "Small to moderate diastemas can be closed with wider-profile veneers — no braces required, no years of waiting.", status: "Fully Corrected" },
+  { icon: Move, title: "Gaps Between Teeth", desc: "Small to moderate diastemas can be closed with wider-profile veneers, no braces required, no years of waiting.", status: "Fully Corrected" },
   { icon: Ruler, title: "Uneven or Misshapen Teeth", desc: "Teeth that are too short, too small, or poorly shaped are rebuilt to the ideal size and form for your face.", status: "Fully Corrected" },
-  { icon: RefreshCw, title: "Mildly Crooked Teeth", desc: "Minor alignment issues can be corrected with veneers in weeks, not years — the 'instant orthodontics' effect.", status: "Often Corrected" },
+  { icon: RefreshCw, title: "Mildly Crooked Teeth", desc: "Minor alignment issues can be corrected with veneers in weeks, not years, the 'instant orthodontics' effect.", status: "Often Corrected" },
   { icon: Minus, title: "Worn-Down Enamel", desc: "Teeth worn down by grinding or acid erosion can be restored to their original length and shape with durable veneers.", status: "Fully Corrected" },
 ];
 
 const costsOfWaiting = [
   { num: "01", title: "Chipped Teeth Propagate", desc: "A hairline crack in enamel expands with every bite, every temperature change. What is a cosmetic issue today becomes structural damage requiring crowns, root canals, or extraction if left unaddressed. Veneers seal the damage permanently." },
-  { num: "02", title: "Confidence Compounds Silently", desc: "Every time you hold back a smile, cover your mouth, or hesitate in a photo — you're paying an invisible social tax. Research confirms that smile confidence directly impacts career advancement, social connection, and mental wellbeing." },
-  { num: "03", title: "Deeper Stains Require More Work", desc: "Intrinsic discolouration deepens over time. The earlier you act, the thinner the veneer needed, and the less enamel preparation required. Waiting doesn't make the problem smaller — it makes the solution more involved." },
+  { num: "02", title: "Confidence Compounds Silently", desc: "Every time you hold back a smile, cover your mouth, or hesitate in a photo, you're paying an invisible social tax. Research confirms that smile confidence directly impacts career advancement, social connection, and mental wellbeing." },
+  { num: "03", title: "Deeper Stains Require More Work", desc: "Intrinsic discolouration deepens over time. The earlier you act, the thinner the veneer needed, and the less enamel preparation required. Waiting doesn't make the problem smaller, it makes the solution more involved." },
   { num: "04", title: "Gaps Affect Bite Alignment", desc: "Untreated tooth gaps cause neighbouring teeth to drift over time, disrupting your bite and potentially triggering jaw discomfort, wear, and TMJ issues. Closing gaps with veneers today prevents a cascade of complications." },
 ];
 
@@ -141,23 +141,23 @@ const idealCandidates = [
   "Patients with chipped, cracked, or worn-down front teeth",
   "Anyone with noticeable gaps or slight spacing issues",
   "People looking for a complete, long-lasting smile makeover",
-  "Those preparing for a major life event — wedding, graduation, promotion",
+  "Those preparing for a major life event, wedding, graduation, promotion",
   "Patients who want results faster than orthodontics can deliver",
 ];
 
 const requiresAssessment = [
   "Patients with active gum disease (must be treated first)",
-  "Severe teeth grinding (bruxism) — protective options available",
-  "Significant tooth decay — decay must be resolved first",
-  "Very severe misalignment — may need orthodontics first",
-  "Insufficient enamel thickness — alternative solutions explored",
-  "Children and teenagers — jaw development must be complete",
+  "Severe teeth grinding (bruxism), protective options available",
+  "Significant tooth decay, decay must be resolved first",
+  "Very severe misalignment, may need orthodontics first",
+  "Insufficient enamel thickness, alternative solutions explored",
+  "Children and teenagers, jaw development must be complete",
 ];
 
 const journeySteps = [
-  { step: "Step 01", title: "WhatsApp Enquiry", desc: "Send us a message describing your smile concerns or what you'd like to change. Our team responds promptly, answers your questions honestly, and helps you decide if veneers are right for you — with zero pressure.", time: "Immediate response" },
-  { step: "Step 02", title: "In-Clinic Consultation & Smile Assessment", desc: "At your appointment, we examine your teeth, gums, and bite. We discuss your desired outcome, show you examples, and present a personalised treatment plan with transparent pricing. You decide — at your own pace.", time: "30–45 minutes" },
-  { step: "Step 03", title: "Tooth Preparation (if required)", desc: "For porcelain veneers, a thin layer of enamel (typically 0.5mm — less than a contact lens) is gently removed to create space. Composite veneers often require no removal at all. Local anaesthetic ensures comfort throughout.", time: "30–60 minutes" },
+  { step: "Step 01", title: "WhatsApp Enquiry", desc: "Send us a message describing your smile concerns or what you'd like to change. Our team responds promptly, answers your questions honestly, and helps you decide if veneers are right for you, with zero pressure.", time: "Immediate response" },
+  { step: "Step 02", title: "In-Clinic Consultation & Smile Assessment", desc: "At your appointment, we examine your teeth, gums, and bite. We discuss your desired outcome, show you examples, and present a personalised treatment plan with transparent pricing. You decide, at your own pace.", time: "30–45 minutes" },
+  { step: "Step 03", title: "Tooth Preparation (if required)", desc: "For porcelain veneers, a thin layer of enamel (typically 0.5mm, less than a contact lens) is gently removed to create space. Composite veneers often require no removal at all. Local anaesthetic ensures comfort throughout.", time: "30–60 minutes" },
   { step: "Step 04", title: "Fabrication or Sculpting", desc: "For porcelain: impressions are taken and veneers are crafted in a dental laboratory to precise specifications. For composite: veneers are sculpted directly on your teeth in the same appointment using artistic layering techniques.", time: "Same visit (composite) or 1–2 weeks (porcelain)" },
   { step: "Step 05", title: "Bonding & Final Reveal", desc: "Your veneers are carefully bonded with dental adhesive, shaped, polished, and checked for perfect fit and bite. You'll see the final result in the mirror before you leave. The reveal moment is unforgettable.", time: "60–90 minutes" },
   { step: "Step 06", title: "Aftercare & Lifetime Support", desc: "We provide comprehensive aftercare guidance, schedule a follow-up check, and remain available via WhatsApp for any questions post-treatment. Your investment is protected with ongoing professional support.", time: "Ongoing" },
@@ -165,17 +165,17 @@ const journeySteps = [
 
 const whyVista = [
   { icon: Building2, title: "Qualified & Experienced", desc: "Our dentists specialise in cosmetic and restorative procedures, with hands-on experience across hundreds of veneer cases." },
-  { icon: Microscope, title: "Premium Materials Only", desc: "We use only clinically tested, internationally certified porcelain and composite materials — no compromises on quality." },
-  { icon: Target, title: "Personalised Design", desc: "Every veneer smile is designed around your face, skin tone, personality, and goals. This is not a template — it is bespoke artistry." },
-  { icon: MessageCircle, title: "WhatsApp-First Access", desc: "Questions at 9pm? We're accessible. Get real answers fast — no automated bots, no long waits, no call queues." },
+  { icon: Microscope, title: "Premium Materials Only", desc: "We use only clinically tested, internationally certified porcelain and composite materials, no compromises on quality." },
+  { icon: Target, title: "Personalised Design", desc: "Every veneer smile is designed around your face, skin tone, personality, and goals. This is not a template, it is bespoke artistry." },
+  { icon: MessageCircle, title: "WhatsApp-First Access", desc: "Questions at 9pm? We're accessible. Get real answers fast, no automated bots, no long waits, no call queues." },
   { icon: Wallet, title: "Honest, Transparent Pricing", desc: "We quote fully before we begin. No hidden costs, no surprise additions. You stay in control of your investment at every step." },
-  { icon: ShieldCheck, title: "Aftercare Guarantee", desc: "We follow up after every procedure and remain your dental partner for the life of your veneers — not just the day of treatment." },
+  { icon: ShieldCheck, title: "Aftercare Guarantee", desc: "We follow up after every procedure and remain your dental partner for the life of your veneers, not just the day of treatment." },
 ];
 
 const Veneers = () => {
   return (
     <Layout>
-      {/* HERO — Editorial dark luxury */}
+      {/* HERO, Editorial dark luxury */}
       <section className="relative overflow-hidden bg-[hsl(220_45%_8%)] text-white">
         <div className="absolute inset-0 opacity-30">
           <div className="absolute -top-40 -left-40 w-[600px] h-[600px] rounded-full bg-gradient-to-br from-amber-400/30 to-transparent blur-3xl" />
@@ -187,7 +187,7 @@ const Veneers = () => {
           <motion.div {...fadeInUp} className="max-w-5xl mx-auto text-center">
             <div className="inline-flex items-center gap-2 rounded-full border border-amber-300/30 bg-amber-300/10 px-4 py-1.5 text-xs font-medium text-amber-200 backdrop-blur mb-8 tracking-widest uppercase">
               <Sparkles className="h-3.5 w-3.5" />
-              VistaDentalcare — Smile Artistry
+              VistaDentalcare, Smile Artistry
             </div>
             
             <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif font-light leading-[1.05] tracking-tight mb-6">
@@ -199,7 +199,7 @@ const Veneers = () => {
             </h1>
 
             <p className="text-lg md:text-xl text-white/70 max-w-3xl mx-auto mb-4 font-light">
-              Dental Veneers — The Art of the Perfect Smile
+              Dental Veneers, The Art of the Perfect Smile
             </p>
             
             <p className="text-base md:text-lg text-white/60 max-w-3xl mx-auto mb-10 leading-relaxed">
@@ -234,7 +234,7 @@ const Veneers = () => {
         </div>
       </section>
 
-      {/* WHAT ARE VENEERS — Cream / editorial */}
+      {/* WHAT ARE VENEERS, Cream / editorial */}
       <section className="relative bg-[hsl(38_50%_96%)] py-20 md:py-32 overflow-hidden">
         <div className="absolute top-10 right-10 text-[200px] font-serif text-[hsl(220_45%_8%)]/[0.03] leading-none select-none hidden md:block">01</div>
         
@@ -247,12 +247,12 @@ const Veneers = () => {
             </h2>
 
             <blockquote className="border-l-4 border-amber-400 pl-6 md:pl-8 my-10 text-lg md:text-2xl font-serif italic text-[hsl(220_45%_20%)] leading-relaxed">
-              "A veneer is a wafer-thin layer of porcelain or composite resin, custom-crafted to bond permanently to the front surface of your tooth — masking imperfections and creating a flawlessly natural result."
+              "A veneer is a wafer-thin layer of porcelain or composite resin, custom-crafted to bond permanently to the front surface of your tooth, masking imperfections and creating a flawlessly natural result."
             </blockquote>
 
             <div className="space-y-5 text-base md:text-lg text-[hsl(220_45%_25%)] leading-relaxed">
               <p>
-                Veneers don't just cover problems — they eliminate them. Crafted in precise shades that match or brighten your natural teeth, they are virtually indistinguishable from real enamel and are incredibly durable. Think of them as a permanent upgrade to your smile.
+                Veneers don't just cover problems, they eliminate them. Crafted in precise shades that match or brighten your natural teeth, they are virtually indistinguishable from real enamel and are incredibly durable. Think of them as a permanent upgrade to your smile.
               </p>
               <p>
                 At VistaDentalcare, every veneer is precision-fitted to your facial structure, skin tone, and personal preference. No two smiles are the same, and neither are our solutions.
@@ -270,7 +270,7 @@ const Veneers = () => {
         </div>
       </section>
 
-      {/* THREE OPTIONS — Deep teal */}
+      {/* THREE OPTIONS, Deep teal */}
       <section className="relative bg-gradient-to-br from-[hsl(190_60%_18%)] via-[hsl(200_55%_12%)] to-[hsl(220_50%_10%)] text-white py-20 md:py-32 overflow-hidden">
         <div className="absolute inset-0 opacity-20" style={{ backgroundImage: "radial-gradient(circle at 1px 1px, rgba(255,255,255,0.15) 1px, transparent 0)", backgroundSize: "32px 32px" }} />
         
@@ -348,7 +348,7 @@ const Veneers = () => {
         </div>
       </section>
 
-      {/* CORRECTIONS — Soft purple */}
+      {/* CORRECTIONS, Soft purple */}
       <section className="relative bg-gradient-to-br from-[hsl(270_40%_96%)] via-[hsl(280_35%_94%)] to-[hsl(260_40%_95%)] py-20 md:py-32 overflow-hidden">
         <div className="absolute -top-40 -right-40 w-[500px] h-[500px] rounded-full bg-gradient-to-bl from-purple-300/20 to-transparent blur-3xl" />
         
@@ -360,7 +360,7 @@ const Veneers = () => {
               <span className="italic text-purple-700">Eliminated.</span>
             </h2>
             <p className="mt-6 text-base md:text-lg text-[hsl(270_30%_25%)] leading-relaxed">
-              Veneers are remarkably versatile. One treatment can address multiple aesthetic concerns simultaneously — in a way no whitening, bonding, or orthodontics alone can achieve.
+              Veneers are remarkably versatile. One treatment can address multiple aesthetic concerns simultaneously, in a way no whitening, bonding, or orthodontics alone can achieve.
             </p>
           </motion.div>
 
@@ -386,7 +386,7 @@ const Veneers = () => {
         </div>
       </section>
 
-      {/* COST OF WAITING — Warning amber/red */}
+      {/* COST OF WAITING, Warning amber/red */}
       <section className="relative bg-gradient-to-b from-[hsl(20_90%_15%)] via-[hsl(15_85%_12%)] to-[hsl(10_80%_10%)] text-white py-20 md:py-32 overflow-hidden">
         <div className="absolute inset-0 opacity-40" style={{ background: "radial-gradient(ellipse at top, rgba(251,146,60,0.15), transparent 60%)" }} />
         
@@ -403,7 +403,7 @@ const Veneers = () => {
           </motion.div>
 
           <motion.blockquote {...fadeInUp} className="border-l-4 border-amber-400 pl-6 md:pl-8 mb-16 text-lg md:text-xl font-serif italic text-amber-100/90 max-w-4xl leading-relaxed">
-            "The longer a tooth stays chipped, cracked, or structurally compromised, the more vulnerable it becomes to further breakage, sensitivity, and bacterial infiltration. What a veneer solves today could require a crown — or worse — tomorrow."
+            "The longer a tooth stays chipped, cracked, or structurally compromised, the more vulnerable it becomes to further breakage, sensitivity, and bacterial infiltration. What a veneer solves today could require a crown, or worse, tomorrow."
           </motion.blockquote>
 
           <div className="grid md:grid-cols-2 gap-6 lg:gap-8">
@@ -427,7 +427,7 @@ const Veneers = () => {
         </div>
       </section>
 
-      {/* STATS — Light luxury */}
+      {/* STATS, Light luxury */}
       <section className="relative bg-[hsl(45_55%_94%)] py-20 md:py-28 overflow-hidden">
         <div className="container">
           <motion.div {...fadeInUp} className="text-center max-w-3xl mx-auto mb-16">
@@ -457,7 +457,7 @@ const Veneers = () => {
         </div>
       </section>
 
-      {/* CANDIDACY — Split background */}
+      {/* CANDIDACY, Split background */}
       <section className="relative bg-white py-20 md:py-32 overflow-hidden">
         <div className="container">
           <motion.div {...fadeInUp} className="max-w-3xl mb-16">
@@ -508,7 +508,7 @@ const Veneers = () => {
         </div>
       </section>
 
-      {/* JOURNEY — Dark navy with timeline */}
+      {/* JOURNEY, Dark navy with timeline */}
       <section className="relative bg-gradient-to-b from-[hsl(220_45%_10%)] to-[hsl(225_50%_6%)] text-white py-20 md:py-32 overflow-hidden">
         <div className="absolute inset-0 opacity-30">
           <div className="absolute top-1/3 -left-40 w-[500px] h-[500px] rounded-full bg-gradient-to-br from-blue-400/20 to-transparent blur-3xl" />
@@ -554,7 +554,7 @@ const Veneers = () => {
         </div>
       </section>
 
-      {/* WHY VISTA — Warm cream */}
+      {/* WHY VISTA, Warm cream */}
       <section className="relative bg-[hsl(35_40%_95%)] py-20 md:py-32 overflow-hidden">
         <div className="container">
           <motion.div {...fadeInUp} className="text-center max-w-3xl mx-auto mb-16">
@@ -584,7 +584,7 @@ const Veneers = () => {
         </div>
       </section>
 
-      {/* FINAL CTA — Bold gradient */}
+      {/* FINAL CTA, Bold gradient */}
       <section className="relative overflow-hidden bg-gradient-to-br from-[hsl(220_45%_8%)] via-[hsl(225_55%_12%)] to-[hsl(200_70%_18%)] text-white py-24 md:py-36">
         <div className="absolute inset-0 opacity-40">
           <div className="absolute top-0 left-1/4 w-[500px] h-[500px] rounded-full bg-gradient-to-br from-amber-400/30 to-transparent blur-3xl" />
@@ -603,7 +603,7 @@ const Veneers = () => {
               </span>
             </h2>
             <p className="text-base md:text-lg text-white/70 max-w-2xl mx-auto mb-10 leading-relaxed">
-              You've read this far because your smile matters to you. Now take one small step. Chat with us on WhatsApp — no commitment, no pressure, just honest answers from a team that genuinely cares about your outcome.
+              You've read this far because your smile matters to you. Now take one small step. Chat with us on WhatsApp, no commitment, no pressure, just honest answers from a team that genuinely cares about your outcome.
             </p>
 
             <WhatsAppButton size="xl" label="Start Your Smile Journey on WhatsApp" />
