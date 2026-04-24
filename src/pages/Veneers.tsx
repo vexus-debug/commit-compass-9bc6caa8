@@ -1,4 +1,3 @@
-import { Layout } from "@/components/layout";
 import { motion } from "framer-motion";
 import {
   MessageCircle,
@@ -174,7 +173,27 @@ const whyVista = [
 
 const Veneers = () => {
   return (
-    <Layout>
+    <div className="min-h-screen bg-background text-foreground">
+      {/* Sticky announcement bar */}
+      <div
+        className="sticky top-0 z-50 w-full border-b text-white"
+        style={{ backgroundColor: "#0f766e" }}
+      >
+        <div className="w-full max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-10 flex items-center justify-between gap-3 py-2.5 text-xs sm:text-sm">
+          <p className="truncate inline-flex items-center gap-2">
+            <Sparkles className="h-3.5 w-3.5 shrink-0" /> <span className="font-semibold">VistaDentalcare</span>, Professional dental care, honest guidance.
+          </p>
+          <a
+            href={WHATSAPP_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hidden sm:inline-flex items-center gap-1.5 font-semibold underline-offset-4 hover:underline whitespace-nowrap"
+          >
+            <MessageCircle className="h-4 w-4" /> Chat on WhatsApp
+          </a>
+        </div>
+      </div>
+
       {/* HERO, Editorial dark luxury */}
       <section className="relative overflow-hidden bg-[hsl(220_45%_8%)] text-white">
         <div className="absolute inset-0 opacity-30">
@@ -615,7 +634,20 @@ const Veneers = () => {
           </motion.div>
         </div>
       </section>
-    </Layout>
+
+      {/* ============== FOOTER ============== */}
+      <footer className="border-t bg-background py-10">
+        <div className="w-full max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-10 text-center space-y-2">
+          <p className="text-sm font-semibold text-primary">
+            VistaDentalcare, Professional Dental Care
+          </p>
+          <p className="text-xs text-muted-foreground">
+            This page is for educational purposes and does not replace a personalised
+            dental consultation.
+          </p>
+        </div>
+      </footer>
+    </div>
   );
 };
 
