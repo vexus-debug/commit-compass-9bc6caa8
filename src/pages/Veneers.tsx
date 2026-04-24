@@ -15,6 +15,17 @@ import {
   Heart,
   Zap,
   ArrowRight,
+  Smile,
+  Layers,
+  Move,
+  Ruler,
+  RefreshCw,
+  Minus,
+  Building2,
+  Microscope,
+  Target,
+  Wallet,
+  GraduationCap,
 } from "lucide-react";
 import veneerBA1 from "@/assets/veneers-before-after-1.jpg";
 import veneerBA2 from "@/assets/veneers-before-after-2.jpg";
@@ -102,12 +113,12 @@ const veneerOptions = [
 ];
 
 const corrections = [
-  { icon: "🟡", title: "Deep Discolouration", desc: "Intrinsic staining from tetracycline, fluorosis, or ageing that whitening cannot touch. Veneers cover it completely.", status: "Fully Corrected" },
-  { icon: "🔹", title: "Chipped & Cracked Teeth", desc: "Minor chips and cracks are concealed permanently beneath a flawless porcelain surface. No more hiding your smile.", status: "Fully Corrected" },
-  { icon: "↔️", title: "Gaps Between Teeth", desc: "Small to moderate diastemas can be closed with wider-profile veneers — no braces required, no years of waiting.", status: "Fully Corrected" },
-  { icon: "📐", title: "Uneven or Misshapen Teeth", desc: "Teeth that are too short, too small, or poorly shaped are rebuilt to the ideal size and form for your face.", status: "Fully Corrected" },
-  { icon: "🔄", title: "Mildly Crooked Teeth", desc: "Minor alignment issues can be corrected with veneers in weeks, not years — the 'instant orthodontics' effect.", status: "Often Corrected" },
-  { icon: "📏", title: "Worn-Down Enamel", desc: "Teeth worn down by grinding or acid erosion can be restored to their original length and shape with durable veneers.", status: "Fully Corrected" },
+  { icon: Sparkles, title: "Deep Discolouration", desc: "Intrinsic staining from tetracycline, fluorosis, or ageing that whitening cannot touch. Veneers cover it completely.", status: "Fully Corrected" },
+  { icon: Layers, title: "Chipped & Cracked Teeth", desc: "Minor chips and cracks are concealed permanently beneath a flawless porcelain surface. No more hiding your smile.", status: "Fully Corrected" },
+  { icon: Move, title: "Gaps Between Teeth", desc: "Small to moderate diastemas can be closed with wider-profile veneers — no braces required, no years of waiting.", status: "Fully Corrected" },
+  { icon: Ruler, title: "Uneven or Misshapen Teeth", desc: "Teeth that are too short, too small, or poorly shaped are rebuilt to the ideal size and form for your face.", status: "Fully Corrected" },
+  { icon: RefreshCw, title: "Mildly Crooked Teeth", desc: "Minor alignment issues can be corrected with veneers in weeks, not years — the 'instant orthodontics' effect.", status: "Often Corrected" },
+  { icon: Minus, title: "Worn-Down Enamel", desc: "Teeth worn down by grinding or acid erosion can be restored to their original length and shape with durable veneers.", status: "Fully Corrected" },
 ];
 
 const costsOfWaiting = [
@@ -153,12 +164,12 @@ const journeySteps = [
 ];
 
 const whyVista = [
-  { icon: "🏛️", title: "Qualified & Experienced", desc: "Our dentists specialise in cosmetic and restorative procedures, with hands-on experience across hundreds of veneer cases." },
-  { icon: "🔬", title: "Premium Materials Only", desc: "We use only clinically tested, internationally certified porcelain and composite materials — no compromises on quality." },
-  { icon: "🎯", title: "Personalised Design", desc: "Every veneer smile is designed around your face, skin tone, personality, and goals. This is not a template — it is bespoke artistry." },
-  { icon: "💬", title: "WhatsApp-First Access", desc: "Questions at 9pm? We're accessible. Get real answers fast — no automated bots, no long waits, no call queues." },
-  { icon: "💰", title: "Honest, Transparent Pricing", desc: "We quote fully before we begin. No hidden costs, no surprise additions. You stay in control of your investment at every step." },
-  { icon: "🔄", title: "Aftercare Guarantee", desc: "We follow up after every procedure and remain your dental partner for the life of your veneers — not just the day of treatment." },
+  { icon: Building2, title: "Qualified & Experienced", desc: "Our dentists specialise in cosmetic and restorative procedures, with hands-on experience across hundreds of veneer cases." },
+  { icon: Microscope, title: "Premium Materials Only", desc: "We use only clinically tested, internationally certified porcelain and composite materials — no compromises on quality." },
+  { icon: Target, title: "Personalised Design", desc: "Every veneer smile is designed around your face, skin tone, personality, and goals. This is not a template — it is bespoke artistry." },
+  { icon: MessageCircle, title: "WhatsApp-First Access", desc: "Questions at 9pm? We're accessible. Get real answers fast — no automated bots, no long waits, no call queues." },
+  { icon: Wallet, title: "Honest, Transparent Pricing", desc: "We quote fully before we begin. No hidden costs, no surprise additions. You stay in control of your investment at every step." },
+  { icon: ShieldCheck, title: "Aftercare Guarantee", desc: "We follow up after every procedure and remain your dental partner for the life of your veneers — not just the day of treatment." },
 ];
 
 const Veneers = () => {
@@ -209,13 +220,13 @@ const Veneers = () => {
 
           <motion.div {...fadeInUp} transition={{ duration: 0.6, delay: 0.3 }} className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-6 max-w-4xl mx-auto">
             {[
-              { icon: "🦷", text: "Ultra-thin" },
-              { icon: "✨", text: "Ultra-natural" },
-              { icon: "💎", text: "Porcelain · Composite · Zirconia" },
-              { icon: "⏱️", text: "1–2 visits" },
+              { icon: Layers, text: "Ultra-thin" },
+              { icon: Sparkles, text: "Ultra-natural" },
+              { icon: Diamond, text: "Porcelain · Composite · Zirconia" },
+              { icon: Clock, text: "1–2 visits" },
             ].map((item) => (
               <div key={item.text} className="rounded-2xl border border-white/10 bg-white/5 backdrop-blur px-4 py-5 text-center">
-                <div className="text-2xl mb-2">{item.icon}</div>
+                <div className="flex justify-center mb-2"><item.icon className="h-6 w-6 text-amber-200" strokeWidth={1.5} /></div>
                 <div className="text-xs md:text-sm text-white/70 font-medium">{item.text}</div>
               </div>
             ))}
@@ -363,7 +374,7 @@ const Veneers = () => {
                 transition={{ duration: 0.5, delay: i * 0.08 }}
                 className="group rounded-3xl bg-white p-7 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border border-purple-100"
               >
-                <div className="text-4xl mb-4">{c.icon}</div>
+                <div className="w-12 h-12 rounded-2xl bg-purple-100 border border-purple-200 flex items-center justify-center mb-4"><c.icon className="h-6 w-6 text-purple-700" strokeWidth={1.75} /></div>
                 <h3 className="text-lg font-semibold text-[hsl(270_45%_15%)] mb-2">{c.title}</h3>
                 <p className="text-sm text-[hsl(270_20%_35%)] leading-relaxed mb-4">{c.desc}</p>
                 <div className="inline-flex items-center gap-1.5 text-xs font-bold text-emerald-700 bg-emerald-50 px-3 py-1 rounded-full">
@@ -564,7 +575,7 @@ const Veneers = () => {
                 transition={{ duration: 0.5, delay: i * 0.08 }}
                 className="group rounded-3xl bg-white p-8 shadow-sm hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 border border-amber-100"
               >
-                <div className="text-4xl mb-5 transition-transform duration-300 group-hover:scale-110">{w.icon}</div>
+                <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-amber-100 to-amber-50 border border-amber-200 flex items-center justify-center mb-5 transition-transform duration-300 group-hover:scale-110"><w.icon className="h-7 w-7 text-amber-700" strokeWidth={1.75} /></div>
                 <h3 className="text-xl font-serif font-medium text-[hsl(220_45%_8%)] mb-3">{w.title}</h3>
                 <p className="text-sm text-[hsl(220_25%_35%)] leading-relaxed">{w.desc}</p>
               </motion.div>
