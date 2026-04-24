@@ -21,6 +21,7 @@ const yellowTeethSubMenu = [
   { title: "Yellow Teeth Overview", href: "/yellow-teeth", description: "Causes, fixes, and what to do next" },
   { title: "Scaling vs Whitening", href: "/yellow-teeth/scaling-vs-whitening", description: "Compare both treatments — find what you need" },
   { title: "Scaling & Polishing", href: "/yellow-teeth/scaling-polishing", description: "Deep cleaning for healthier gums" },
+  { title: "Veneers — Smile Artistry", href: "/yellow-teeth/veneers", description: "Porcelain, composite & zirconia veneers" },
 ];
 
 const Header = () => {
