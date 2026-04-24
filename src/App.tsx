@@ -27,6 +27,7 @@ import YellowTeeth from "./pages/YellowTeeth";
 import ToothRestoration from "./pages/ToothRestoration";
 import ScalingPolishing from "./pages/ScalingPolishing";
 import ScalingVsWhitening from "./pages/ScalingVsWhitening";
+import Veneers from "./pages/Veneers";
 
 // Service Pages
 import GeneralPreventive from "./pages/services/GeneralPreventive";
@@ -159,6 +160,8 @@ const App = () => (
             <Route path="/scaling-polishing" element={<ScalingPolishing />} />
             <Route path="/yellow-teeth/scaling-vs-whitening" element={<ScalingVsWhitening />} />
             <Route path="/scaling-vs-whitening" element={<ScalingVsWhitening />} />
+            <Route path="/yellow-teeth/veneers" element={<Veneers />} />
+            <Route path="/veneers" element={<Veneers />} />
             <Route path="/tooth-restoration" element={<ToothRestoration />} />
             
             {/* Service Sub-Pages */}
